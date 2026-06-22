@@ -1,0 +1,21 @@
+
+Call:
+lm(formula = formula_selected, data = train_data)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.63189 -0.11371  0.01223  0.20370  0.46203 
+
+Coefficients:
+                            Estimate Std. Error t value Pr(>|t|)  
+(Intercept)                 1.532474   0.824512   1.859   0.0713 .
+Focus.Minutes               0.006343   0.002820   2.249   0.0307 *
+Attendance.Percentage       0.016852   0.009131   1.846   0.0732 .
+Procrastination.Percentage -0.003024   0.001524  -1.985   0.0549 .
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.2812 on 36 degrees of freedom
+Multiple R-squared:  0.3523,	Adjusted R-squared:  0.2983 
+F-statistic: 6.528 on 3 and 36 DF,  p-value: 0.001221
+

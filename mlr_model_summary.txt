@@ -1,0 +1,22 @@
+
+Call:
+lm(formula = CGPA ~ Attendance.Percentage + Procrastination.Percentage + 
+    Focus.Minutes, data = data_clean)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.67296 -0.22719  0.01787  0.22900  0.61010 
+
+Coefficients:
+                            Estimate Std. Error t value Pr(>|t|)  
+(Intercept)                 2.299754   0.882388   2.606   0.0129 *
+Attendance.Percentage       0.008824   0.009869   0.894   0.3768  
+Procrastination.Percentage -0.003064   0.001568  -1.954   0.0579 .
+Focus.Minutes               0.004689   0.003052   1.536   0.1325  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.3056 on 39 degrees of freedom
+Multiple R-squared:  0.1868,	Adjusted R-squared:  0.1242 
+F-statistic: 2.985 on 3 and 39 DF,  p-value: 0.04277
+
